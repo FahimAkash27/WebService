@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LibaryApiCodes;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibaryWebApi.Controllers
@@ -41,8 +42,8 @@ namespace LibaryWebApi.Controllers
 
 
         [HttpPost]
-        [ActionName("AddBook")]
-        public void PostStudent([FromBody] string[] values)
+        [ActionName("PostAddBook")]
+        public void PostAddBook([FromBody] string[] values)
         {
             _serviceBookAdd.AddBook(values);
         }

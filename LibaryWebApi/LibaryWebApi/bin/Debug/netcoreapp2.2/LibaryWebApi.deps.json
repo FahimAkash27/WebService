@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v2.2": {
       "LibaryWebApi/1.0.0": {
         "dependencies": {
+          "LibaryApiCodes": "1.0.0",
+          "LibaryEntites": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
@@ -232,6 +234,27 @@
             "assemblyVersion": "4.1.1.0",
             "fileVersion": "4.6.26515.6"
           }
+        }
+      },
+      "LibaryApiCodes/1.0.0": {
+        "dependencies": {
+          "LibaryEntites": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
+        },
+        "runtime": {
+          "LibaryApiCodes.dll": {}
+        },
+        "compile": {
+          "LibaryApiCodes.dll": {}
+        }
+      },
+      "LibaryEntites/1.0.0": {
+        "runtime": {
+          "LibaryEntites.dll": {}
+        },
+        "compile": {
+          "LibaryEntites.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3417,6 +3440,16 @@
       "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
       "path": "system.text.encoding.codepages/4.5.0",
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    },
+    "LibaryApiCodes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibaryEntites/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

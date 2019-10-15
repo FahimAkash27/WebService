@@ -1,0 +1,16 @@
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\LibaryUser.deps.json
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\LibaryUser.runtimeconfig.json
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\LibaryUser.runtimeconfig.dev.json
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\LibaryUser.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\LibaryUser.pdb
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\obj\Debug\netcoreapp2.2\LibaryUser.csproj.CoreCompileInputs.cache
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\obj\Debug\netcoreapp2.2\LibaryUser.AssemblyInfoInputs.cache
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\obj\Debug\netcoreapp2.2\LibaryUser.AssemblyInfo.cs
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\obj\Debug\netcoreapp2.2\LibaryUser.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\obj\Debug\netcoreapp2.2\LibaryUser.pdb
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\obj\Debug\netcoreapp2.2\LibaryUser.csprojAssemblyReference.cache
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\LibaryEntites.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\LibaryEntites.pdb
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\obj\Debug\netcoreapp2.2\LibaryUser.csproj.CopyComplete
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryUser\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.Abstractions.xml

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibaryWebApi", "LibaryWebApi\LibaryWebApi.csproj", "{C9814F7A-7850-42F9-B9FC-2D0A5C2CB5BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibaryWebApi", "LibaryWebApi\LibaryWebApi.csproj", "{C9814F7A-7850-42F9-B9FC-2D0A5C2CB5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibaryApiCodes", "LibaryApiCodes\LibaryApiCodes.csproj", "{0665F215-CC85-4A9C-9A43-30940CF599C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibaryUser", "LibaryUser\LibaryUser.csproj", "{9E930500-9C7B-4287-B948-46AFFE0B1832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibaryEntites", "LibaryEntites\LibaryEntites.csproj", "{C30DA442-06FC-42F6-B774-8D3E1C6E6258}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{C9814F7A-7850-42F9-B9FC-2D0A5C2CB5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9814F7A-7850-42F9-B9FC-2D0A5C2CB5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9814F7A-7850-42F9-B9FC-2D0A5C2CB5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0665F215-CC85-4A9C-9A43-30940CF599C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0665F215-CC85-4A9C-9A43-30940CF599C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0665F215-CC85-4A9C-9A43-30940CF599C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0665F215-CC85-4A9C-9A43-30940CF599C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E930500-9C7B-4287-B948-46AFFE0B1832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E930500-9C7B-4287-B948-46AFFE0B1832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E930500-9C7B-4287-B948-46AFFE0B1832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E930500-9C7B-4287-B948-46AFFE0B1832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30DA442-06FC-42F6-B774-8D3E1C6E6258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30DA442-06FC-42F6-B774-8D3E1C6E6258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30DA442-06FC-42F6-B774-8D3E1C6E6258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30DA442-06FC-42F6-B774-8D3E1C6E6258}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

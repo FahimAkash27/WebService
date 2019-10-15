@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryUser\\LibaryUser.csproj": {}
+  },
+  "projects": {
+    "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryEntites\\LibaryEntites.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryEntites\\LibaryEntites.csproj",
+        "projectName": "LibaryEntites",
+        "projectPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryEntites\\LibaryEntites.csproj",
+        "packagesPath": "C:\\Users\\Akas\\.nuget\\packages\\",
+        "outputPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryEntites\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Akas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryUser\\LibaryUser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryUser\\LibaryUser.csproj",
+        "projectName": "LibaryUser",
+        "projectPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryUser\\LibaryUser.csproj",
+        "packagesPath": "C:\\Users\\Akas\\.nuget\\packages\\",
+        "outputPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryUser\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Akas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryEntites\\LibaryEntites.csproj": {
+                "projectPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryEntites\\LibaryEntites.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

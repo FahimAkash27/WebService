@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LibaryApiCodes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,7 +27,12 @@ namespace LibaryWebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<LibaryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            var migrationAssemblyName = typeof(Startup).Assembly.FullName;
+
+            var connectionString = Configuration.GetConnectionString("DefaultConnection");
+
+
 
             services.AddTransient<IRipositoryStudentInfo, RepositoryStudentInfo>()
                     .AddTransient<IServiceEntryStudent, ServiceEntryStudent>()
@@ -34,7 +40,15 @@ namespace LibaryWebApi
                     .AddTransient<IServiceBookAdd, ServiceBookAdd>()
                     .AddTransient<IRipositoryBookIssue, RipositoryBookIssue>()
                     .AddTransient<IServiceBookIssue, ServiceBookIssue>()
-                    .AddTransient<IServiceReturnBook, ServiceReturnBook>();
+                    .AddTransient<IServiceReturnBook, ServiceReturnBook>()
+                    .AddTransient<IServiceFine, ServiceFine>()
+                    .AddTransient<UnitOfWorkBookIssue>(u => new UnitOfWorkBookIssue(connectionString, migrationAssemblyName))
+                    .AddTransient<IUnitOfWorkBookIssue, UnitOfWorkBookIssue>()
+                    .AddTransient<UnitOfWorkReturnBook>(u => new UnitOfWorkReturnBook(connectionString, migrationAssemblyName))
+                    .AddTransient<IUnitOfWorkReturnBook,UnitOfWorkReturnBook>()
+                    .AddTransient<LibaryContext>(l => new LibaryContext(connectionString, migrationAssemblyName));
+
+            services.AddDbContext<LibaryContext>(x => x.UseSqlServer(connectionString, m => m.MigrationsAssembly(migrationAssemblyName)));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

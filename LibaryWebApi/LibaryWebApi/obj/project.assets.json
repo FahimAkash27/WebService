@@ -4438,6 +4438,31 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "LibaryApiCodes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "LibaryEntites": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.2.6",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.6"
+        },
+        "compile": {
+          "bin/placeholder/LibaryApiCodes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibaryApiCodes.dll": {}
+        }
+      },
+      "LibaryEntites/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/LibaryEntites.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibaryEntites.dll": {}
+        }
       }
     }
   },
@@ -12064,10 +12089,22 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "LibaryApiCodes/1.0.0": {
+      "type": "project",
+      "path": "../LibaryApiCodes/LibaryApiCodes.csproj",
+      "msbuildProject": "../LibaryApiCodes/LibaryApiCodes.csproj"
+    },
+    "LibaryEntites/1.0.0": {
+      "type": "project",
+      "path": "../LibaryEntites/LibaryEntites.csproj",
+      "msbuildProject": "../LibaryEntites/LibaryEntites.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "LibaryApiCodes >= 1.0.0",
+      "LibaryEntites >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore >= 2.2.6",
@@ -12082,11 +12119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\A Asp .net core mvc web development\\WebServices\\LibaryWebApi\\LibaryWebApi\\LibaryWebApi.csproj",
+      "projectUniqueName": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryWebApi\\LibaryWebApi.csproj",
       "projectName": "LibaryWebApi",
-      "projectPath": "G:\\A Asp .net core mvc web development\\WebServices\\LibaryWebApi\\LibaryWebApi\\LibaryWebApi.csproj",
+      "projectPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryWebApi\\LibaryWebApi.csproj",
       "packagesPath": "C:\\Users\\Akas\\.nuget\\packages\\",
-      "outputPath": "G:\\A Asp .net core mvc web development\\WebServices\\LibaryWebApi\\LibaryWebApi\\obj\\",
+      "outputPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12104,7 +12141,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryApiCodes\\LibaryApiCodes.csproj": {
+              "projectPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryApiCodes\\LibaryApiCodes.csproj"
+            },
+            "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryEntites\\LibaryEntites.csproj": {
+              "projectPath": "G:\\A Asp .net core mvc web development\\WebServices\\WebService\\LibaryWebApi\\LibaryEntites\\LibaryEntites.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,12 @@
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\bin\Debug\netcoreapp2.2\LibaryApiCodes.deps.json
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\bin\Debug\netcoreapp2.2\LibaryApiCodes.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\obj\Debug\netcoreapp2.2\LibaryApiCodes.csprojAssemblyReference.cache
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\obj\Debug\netcoreapp2.2\LibaryApiCodes.csproj.CoreCompileInputs.cache
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\obj\Debug\netcoreapp2.2\LibaryApiCodes.AssemblyInfoInputs.cache
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\obj\Debug\netcoreapp2.2\LibaryApiCodes.AssemblyInfo.cs
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\bin\Debug\netcoreapp2.2\LibaryApiCodes.pdb
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\obj\Debug\netcoreapp2.2\LibaryApiCodes.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\obj\Debug\netcoreapp2.2\LibaryApiCodes.pdb
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\bin\Debug\netcoreapp2.2\LibaryEntites.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\bin\Debug\netcoreapp2.2\LibaryEntites.pdb
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryApiCodes\obj\Debug\netcoreapp2.2\LibaryApiCodes.csproj.CopyComplete

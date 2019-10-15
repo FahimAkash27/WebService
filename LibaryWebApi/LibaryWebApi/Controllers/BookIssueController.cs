@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LibaryApiCodes;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibaryWebApi.Controllers
@@ -42,23 +43,30 @@ namespace LibaryWebApi.Controllers
 
 
         [HttpPost]
-        [ActionName("IssueBook")]
+        [ActionName("PostIssueBook")]
         public void PostIssueBook([FromBody] string[] values)
         {
             _serviceBookIssue.IssueBook(values);
         }
 
-        [HttpPost]
-        [ActionName("ReturnBook")]
-        public void PostReturnBook([FromBody] string[] values)
-        {
-            _ServiceReturnBook.ReturnBook(values);
-        }
+        //[HttpPost]
+        //[ActionName("ReturnBook")]
+        //public void PostReturnBook([FromBody] string[] values)
+        //{
+        //    _ServiceReturnBook.ReturnBook(values);
+        //}
 
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+        }
+
+        [HttpPut]
+        [ActionName("PutReturnBook")]
+        public void PutReturnBook([FromBody] string[] values)
+        {
+            _ServiceReturnBook.ReturnBook(values);
         }
 
         // DELETE api/values/5

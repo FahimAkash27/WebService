@@ -6,13 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LibaryWebApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
 
         // GET api/values
         [HttpGet]
+        [ActionName("Get")]
         public ActionResult<IEnumerable<string>> Get()
         {
             return new string[] { "value1", "value2" };
@@ -20,9 +21,10 @@ namespace LibaryWebApi.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [ActionName("GetId")]
+        public ActionResult<string> GetId(int id)
         {
-            return "value";
+            return "value555";
         }
 
         // POST api/values

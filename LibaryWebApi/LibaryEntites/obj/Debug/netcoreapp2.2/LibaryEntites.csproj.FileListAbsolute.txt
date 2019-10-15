@@ -1,0 +1,8 @@
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryEntites\bin\Debug\netcoreapp2.2\LibaryEntites.deps.json
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryEntites\bin\Debug\netcoreapp2.2\LibaryEntites.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryEntites\bin\Debug\netcoreapp2.2\LibaryEntites.pdb
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryEntites\obj\Debug\netcoreapp2.2\LibaryEntites.csproj.CoreCompileInputs.cache
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryEntites\obj\Debug\netcoreapp2.2\LibaryEntites.AssemblyInfoInputs.cache
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryEntites\obj\Debug\netcoreapp2.2\LibaryEntites.AssemblyInfo.cs
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryEntites\obj\Debug\netcoreapp2.2\LibaryEntites.dll
+G:\A Asp .net core mvc web development\WebServices\WebService\LibaryWebApi\LibaryEntites\obj\Debug\netcoreapp2.2\LibaryEntites.pdb
